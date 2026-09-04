@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>l
+    <link rel="stylesheet" href="stylle.css">
+     <script src="script.js" defer></script>
+</head>
+<body>
+     <!--Barr de navigation -->
+     <header class="navbar">
+    <a href="Accueil.html"><img src="logo.jpg" alt=""></a>
+    <div class="logo">Faladie <span>AS</span></div>
+    <nav>
+        <ul>
+            <li><a href="Accueil.html" class="active">Accueil</a></li>
+            <li><a href="Centre.html">Le Centre</a></li>
+            <li><a href="programme.html">Programmes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <a href="contact.html" class="btn-cta">S'inscrire</a>
+   </header>
+<!-- FORMULAIRE DE RECRUTEMENT INTERACTIF -->
+      <div class="contact-head">
+          <h1 class="contact-title">Contactez-Nous</h1>
+         <p class="contact-item"><strong>Email :</strong> faladiecentre@gmail.com</p>
+         <p class="contact-item"><strong>Téléphone :</strong> +223 78 43 53 99 ou +223 50 57 29 83</p>
+          <p class="contact-item"><strong>Adresse :</strong> Bamako, Mali</p>
+      </div>
+<div class="inf-wrapper">
+      <div class="info">
+      <form class="label">
+        <h2>Informations Personnelles</h2>
+         <label for="prenom">Prénom</label>
+        <input type="text" id="prenom" name="prenom" placeholder="EX: Bilaly">
+
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" placeholder="EX: GORO">
+
+        <label for="naissance">Date de naissance</label>
+        <input type="date" id="naissance" name="naissance">
+
+        <label for="age">Âge</label>
+        <input type="number" id="age" name="age" placeholder="Ex: 12">
+
+        <label for="tel">Téléphone</label>
+        <input type="number" id="tel" name="tel" placeholder=" +223">
+
+<label for="categorie">Votre Catégorie</label>
+         <select id="categorie" name="categorie">
+            <option value="">---Veuillez sélectionner votre catégorie---</option>
+            <option value="U9">U9</option>
+            <option value="U11">U11</option>
+            <option value="U13">U13</option>
+            <option value="U15">U15</option>
+            <option value="U17">U17</option>
+            <option value="U19">U19</option>
+            <option value="U20">U20</option>
+           </select>
+
+           <div class="btn-group">
+             <button type="submit" class="btn-submit">Envoyer ✓</button>
+             <button type="reset" class="btn-reset">Réinitialiser</button>
+           </div>
+           <p class="form-msg" id="formMsg"></p>
+      </form>
+    </div>
+    <section class="tab-content">
+      <div class="mb-8">
+        <span class="text-xs">Projet Sportif</span>
+        <h1 class="text-3xl">Postuler pour les détections</h1>
+        <p class="text-centre">Remplissez notre formulaire de candidature intelligent. Notre cellule de recrutement étudiera votre profil sous 48 heures.</p>
+      </div>
+    </section>
+      <!-- Pied de page -->
+    </div>
+     <footer>
+        <img src="logo.jpg" alt="">
+        <p>&copy; 2026 Faladie Football Centre de Formation. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
